@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true, // デバッグに必須
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "outDir": "wwwroot/js", // ここに出力
+    "lib": [ "dom", "es2015" ]
+  },
+  "include": [ "ClientApp/src/**/*" ] // ソースの場所を限定
+}

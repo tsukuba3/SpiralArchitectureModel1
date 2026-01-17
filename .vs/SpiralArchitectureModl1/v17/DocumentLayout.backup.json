@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\vs2026\\SpiralArchitectureModl1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{679D5CC6-8354-4309-9042-DDFBC4576613}|SpiralArchitectureModl1\\SpiralArchitectureModl1.csproj|d:\\vs2026\\spiralarchitecturemodl1\\spiralarchitecturemodl1\\clientapp\\src\\order.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{679D5CC6-8354-4309-9042-DDFBC4576613}|SpiralArchitectureModl1\\SpiralArchitectureModl1.csproj|solutionrelative:spiralarchitecturemodl1\\clientapp\\src\\order.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{679D5CC6-8354-4309-9042-DDFBC4576613}|SpiralArchitectureModl1\\SpiralArchitectureModl1.csproj|d:\\vs2026\\spiralarchitecturemodl1\\spiralarchitecturemodl1\\clientapp\\src\\hello-spiral.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{679D5CC6-8354-4309-9042-DDFBC4576613}|SpiralArchitectureModl1\\SpiralArchitectureModl1.csproj|solutionrelative:spiralarchitecturemodl1\\clientapp\\src\\hello-spiral.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{679D5CC6-8354-4309-9042-DDFBC4576613}|SpiralArchitectureModl1\\SpiralArchitectureModl1.csproj|d:\\vs2026\\spiralarchitecturemodl1\\spiralarchitecturemodl1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{679D5CC6-8354-4309-9042-DDFBC4576613}|SpiralArchitectureModl1\\SpiralArchitectureModl1.csproj|solutionrelative:spiralarchitecturemodl1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "hello-spiral.ts",
+              "DocumentMoniker": "D:\\vs2026\\SpiralArchitectureModl1\\SpiralArchitectureModl1\\ClientApp\\src\\hello-spiral.ts",
+              "RelativeDocumentMoniker": "SpiralArchitectureModl1\\ClientApp\\src\\hello-spiral.ts",
+              "ToolTip": "D:\\vs2026\\SpiralArchitectureModl1\\SpiralArchitectureModl1\\ClientApp\\src\\hello-spiral.ts",
+              "RelativeToolTip": "SpiralArchitectureModl1\\ClientApp\\src\\hello-spiral.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-17T01:25:49.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "order.ts",
+              "DocumentMoniker": "D:\\vs2026\\SpiralArchitectureModl1\\SpiralArchitectureModl1\\ClientApp\\src\\order.ts",
+              "RelativeDocumentMoniker": "SpiralArchitectureModl1\\ClientApp\\src\\order.ts",
+              "ToolTip": "D:\\vs2026\\SpiralArchitectureModl1\\SpiralArchitectureModl1\\ClientApp\\src\\order.ts",
+              "RelativeToolTip": "SpiralArchitectureModl1\\ClientApp\\src\\order.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-17T01:25:44.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\vs2026\\SpiralArchitectureModl1\\SpiralArchitectureModl1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SpiralArchitectureModl1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\vs2026\\SpiralArchitectureModl1\\SpiralArchitectureModl1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SpiralArchitectureModl1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-17T01:07:09.7Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

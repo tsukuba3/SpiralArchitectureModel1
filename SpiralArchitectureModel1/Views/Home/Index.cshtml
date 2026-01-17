@@ -1,0 +1,55 @@
+﻿@model SpiralArch.Models.PriceCalculatorViewModel
+
+@{
+    ViewData["Title"] = "Architecture Comparison";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">1つのデータ・2つのGUI表現（デモ）</h2>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">表現 A (hello-spiral)</div>
+                <div class="card-body">
+                    <div id="spiral-app">
+                        <p class="text-muted">Loading GUI A...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm border-success">
+                <div class="card-header bg-success text-white">表現 B (order-status)</div>
+                <div class="card-body">
+                    <div id="order-status">
+                        <p class="text-muted">Loading GUI B...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script type="module">
+        // 両方の TypeScript 部品をインポート
+        import { initHelloSpiral } from '/js/hello-spiral.js';
+        import { updateOrderDisplay } from '/js/order.js';
+        
+        // C#側の共通データ（ソースは1つ）
+        const data = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.ToJson()));
+        
+        // 1. hello-spiral 形式で描画
+        initHelloSpiral(data);
+
+        // 2. order 形式で描画（ID名などは order.ts の中身に依存）
+        // data に orderId が含まれていない場合は、C#側で generatedAt などを orderId に見立てて渡します
+        const orderData = {
+            orderId: data.generatedAt, // デモ用に時刻をIDとして流用
+            totalAmount: data.totalPrice
+        };
+        updateOrderDisplay(orderData);
+    </script>
+}
